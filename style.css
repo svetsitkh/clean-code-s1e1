@@ -10,6 +10,10 @@
   display: block;
   text-align: right;
 }
+.hidden-title {
+  visibility: hidden;
+  position: fixed;
+}
 .header-img {
   width: 100%;
 }
@@ -43,7 +47,7 @@ ul {
   padding: 0px;
 }
 li,
-h3 {
+h2 {
   list-style: none;
 }
 input,
@@ -90,7 +94,7 @@ button{
 }
 
 /* New Task */
-.subtitle[for="new-task"] {
+.subtitle.add {
   display: block;
   margin: 0 0 20px;
 }
